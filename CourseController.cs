@@ -2,8 +2,6 @@ using Academy_2025.Data;
 using Microsoft.AspNetCore.Mvc;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace Academy_2025.Controllers
 {
     [Route("api/[controller]")]
