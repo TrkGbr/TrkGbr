@@ -18,9 +18,9 @@ namespace Academy_2025.Respositories
 
         public List<User> GetUsersOver18()  //<---------------MEGOLDÁS
         {
-            var nameQuery = _context.Users.Where(user => user.Age > 18);
+            //var nameQuery = _context.Users.Where(user => user.Age > 18);
 
-            return nameQuery.ToList();
+            return (_context.Users.Where(user => user.Age > 18)).ToList();
         }
 
         public User? GetById(int id)
