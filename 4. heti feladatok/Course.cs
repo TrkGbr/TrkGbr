@@ -17,7 +17,7 @@ namespace Academy_2025.Data
 
         [Required]
         [StringLength(50)]
-        public string? Author { get; set; } //Hozzáadott Author mező
+        public User? Author { get; set; } //Hozzáadott Author mező
 
         public ICollection<User> Users { get; set; } = [];
     }
